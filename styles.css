@@ -1,0 +1,222 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 83%;
+    margin:0 auto;
+}
+
+header {
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+    padding: 20px 0;
+    background-color: beige;
+   direction: ltr;
+              box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#points-box {
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 30px;
+    border: 1px solid blue;
+    border-radius: 9px;
+    padding: 3px 3px;
+                box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4);
+                background-color: bisque;
+                padding: 4px 8px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+   
+}
+
+.device {
+    background: white;
+    padding: 15px;
+    box-shadow: 3 3 10px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    width: 100%;
+    border-radius: 4%;
+    border: 2.5px solid powderblue;
+    
+}
+
+.device img {
+    max-width: 70%;
+    height: auto;
+}
+
+.device p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.withdraw-btn {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.withdraw-btn:hover {
+    background-color: #0056b3;
+}
+
+#add-points-btn {
+    padding:7px 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+#add-points-btn:hover {
+    background-color: #218838;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 0px;
+}
+.submit{
+  background-color: #007BFF;
+  color :white;
+  padding: 8px 6px;
+  border-radius: 7px;
+  
+}
+header{
+ border: 2px solid slategray;
+ border-radius: 5px;
+ padding: 5px 5px;
+ margin-top: 10px;
+ margin-bottom: 15px;
+ 
+}
+
+
+body{
+  direction: rtl;
+}
+
+.withdraw-btn{
+  font-weight: bold;
+}
+
+input{
+  padding:10px 10px;
+  width: 80%;
+  margin: 3px 3px;
+  margin-bottom: 8px;
+}
+main h2{
+  border : 1px solid black;
+  
+  padding: 3px;
+            border: 1px solid powderblue;
+            border-radius: 15px;
+            box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.4);
+        margin: 15px 13px ;
+        
+            
+        
+        }
+        main h5{
+          margin : 10px 1px;
+        }
+        
+main p {
+  margin: 3px 3px;
+  padding: 0 0;
+}
+
+.out{
+  
+font-size: 18px;
+  text-shadow:
+    -1px -1px 0 red,
+     1px -1px 0 red,
+    -1px  2px 0 red,
+     1px  1px 0 indianred;
+  color: black;     
+  font-weight: bold;
+  border: 1px solid none;
+  padding: 5px 5px;
+border-right: 1px solid none;
+border-bottom: 1px solid none;
+border-left: 3px solid red;
+border-top: 4px solid red;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.4);
+/*align-content: ;  text-shadow: 5px 6px 3px rgba(0, 0, 0, 0.5);
+  */
+}
+.vpoint{
+  border: 1px dashed red;
+  padding: 0 0;
+  margin: 0 0;
+  width: 50%;
+  text-align: center;
+  margin-right: 25%;
+  font-weight: bold;
+}
+.end {
+  text-align: center;
+  direction: ltr;
+}
+.highlight{
+  color :red ;
+}
+footer{
+  text-align: center;
+}
