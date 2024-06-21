@@ -215,7 +215,9 @@ border-top: 4px solid red;
   direction: ltr;
 }
 .highlight{
-  color :red ;
+    color :darkred ;
+  font-weight: bold;
+    
 }
 footer{
   text-align: center;
